@@ -108,3 +108,9 @@ variable "listeners" {
   }))
   default = []
 }
+
+variable "drop_invalid_header_fields" {
+  description = "Whether or not the ALB should drop invalid headers"
+  type = bool,
+  default = false
+}

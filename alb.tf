@@ -8,6 +8,8 @@ resource "aws_lb" "load_balancer" {
 
   idle_timeout = var.idle_timeout
 
+  drop_invalid_header_fields = var.drop_invalid_header_fields
+
   tags = {
     Name = "${var.component}-${var.deployment_identifier}"
     Component = var.component
