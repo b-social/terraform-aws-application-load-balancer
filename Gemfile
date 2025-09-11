@@ -10,5 +10,17 @@ gem 'rake_gpg', '~> 0.16'
 gem 'confidante', '~> 0.27'
 gem 'rspec', '~> 3.9'
 gem 'awspec', '~> 1.22'
-gem 'git', '~> 1.7'
+gem 'git', '~> 1.13.0'
 gem 'semantic', '~> 1.6'
+
+gem 'jmespath', '>= 1.6.1'
+
+gem 'activesupport', '>= 6.1.7'
+
+gem 'rspec-its', '>= 2.0.0'
+
+gem 'addressable', '>= 2.8.0'
+
+gem 'thor', '>= 1.4.0'
+
+gem 'faraday', '>= 2.12.3'
