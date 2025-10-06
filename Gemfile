@@ -12,3 +12,13 @@ gem 'rspec', '~> 3.9'
 gem 'awspec', '~> 1.22'
 gem 'git', '~> 1.7'
 gem 'semantic', '~> 1.6'
+
+gem 'activesupport', '>= 6.1.7'
+
+gem 'rspec-its', '>= 2.0.0'
+
+gem 'addressable', '>= 2.8.0'
+
+gem 'thor', '>= 1.4.0'
+
+gem 'faraday', '>= 2.12.3'
